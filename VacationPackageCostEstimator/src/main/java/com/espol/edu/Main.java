@@ -1,18 +1,18 @@
-//// Copyright (C) 2020
 package com.espol.edu;
-import java.util.LinkedList;
-import java.util.Scanner;
-
-public class Main {
-
-//CHECKSTYLE:OFF
-    /**@param args default param of main method.
-     * Main method for calculation. */
-    public static void main(final String[] args) {
-        PackageVacation pv1 = new PackageVacation("Paris", 4, 5);
+/**
+ * Main class for the application.
+ */
+@SuppressWarnings("PMD.UseUtilityClass")
+public final class Main {
+	/**
+     * Main method to start the application.
+     *
+     * @param args Command line arguments.
+     */
+	public static void main(final String[] args) {
+        final PackageVacation pv1 = new PackageVacation("Paris", 4, 5, "All-Inclusive Package");
         System.out.println(pv1.calculatePackagePrice());
 
     }
-//CHECKSTYLE:ON
 }
 

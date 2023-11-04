@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="/home/adair/Escritorio/semestre8/Ing_softw2/VacationPackageCostEstimator/src/main/java/com/espol/edu/Main.java">
+<file name="/home/adair/Escritorio/semestre8/Ing_softw2/ing-Software-taller1-2/VacationPackageCostEstimator/src/main/java/com/espol/edu/Main.java">
 <error line="1" severity="error" message="Line does not match expected header line of &apos;// Copyright (C) 2020&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
 <error line="12" column="60" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 <error line="12" column="63" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
-<file name="/home/adair/Escritorio/semestre8/Ing_softw2/VacationPackageCostEstimator/src/main/java/com/espol/edu/PackageVacation.java">
+<file name="/home/adair/Escritorio/semestre8/Ing_softw2/ing-Software-taller1-2/VacationPackageCostEstimator/src/main/java/com/espol/edu/PackageVacation.java">
 <error line="2" severity="error" message="Line does not match expected header line of &apos;// All rights reserved&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
 </file>
 </checkstyle>
